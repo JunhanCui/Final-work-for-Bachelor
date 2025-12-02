@@ -46,5 +46,7 @@ This project relies on specific versions of scientific computing libraries to en
    git clone https://github.com/JunhanCui/Final-work-for-Bachelor.git
    cd Final-work-for-Bachelor
 
-2. **Install dependencies**
+# 2. Install dependencies
+
 pip install -r requirements.txt
+
