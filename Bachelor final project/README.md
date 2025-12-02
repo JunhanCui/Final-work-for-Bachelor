@@ -6,9 +6,9 @@
 
 ## 📖 Overview
 
-**AJD (Análisis de Jerarquía Dirigido / Directed Hierarchy Analysis)** is a novel variable selection and dimensionality reduction algorithm based on **Topological Data Analysis (TDA)**. 
+**DHA (Directed Hierarchy Analysis) / AJD (Análisis de Jerarquía Dirigido)** is a novel variable selection and dimensionality reduction algorithm based on **Topological Data Analysis (TDA)**. 
 
-Unlike traditional statistical methods (e.g., PCA) that focus on variance, AJD iteratively evaluates the topological significance of variables by analyzing the stability and structure of their associated **Persistence Diagrams**. This project provides a robust implementation for computing directed hierarchies using multiple topological metrics, including Wasserstein distance, Bottleneck distance, and Persistence Entropy.
+Unlike traditional statistical methods (e.g., PCA) that focus on variance, DHA iteratively evaluates the topological significance of variables by analyzing the stability and structure of their associated **Persistence Diagrams**. This project provides a robust implementation for computing directed hierarchies using multiple topological metrics, including Wasserstein distance, Bottleneck distance, and Persistence Entropy.
 
 ## ✨ Key Features
 
@@ -43,8 +43,9 @@ This project relies on specific versions of scientific computing libraries to en
 
 1. **Clone the repository:**
    ```bash
-   git clone [[https://github.com/JunhanCui/AJD-Topology.git](https://github.com/JunhanCui/Final-work-for-Bachelor.git)]
-   cd AJD-Topology
+   git clone https://github.com/JunhanCui/Final-work-for-Bachelor.git
+   cd Final-work-for-Bachelor
+
 
 
 
