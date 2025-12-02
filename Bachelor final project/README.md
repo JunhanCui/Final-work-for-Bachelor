@@ -18,21 +18,26 @@ This research draws theoretical inspiration from **Toric Topology**, specificall
 - **Multi-Metric Support**:
   - **`was`**: Wasserstein distance (Optimal Transport).
   - **`btn`**: Bottleneck distance (Stability Metric).
-  - **`ent`**: Persistent Entropy (Shannon Entropy of topology).
+  - **`ent`**: Persistence Entropy (Shannon Entropy of topology).
   - **`pet`**: Total Persistence (Signal strength).
 - **Scikit-TDA Integration**: Built upon the industry-standard `ripser` and `persim` libraries for high-performance computation.
 - **Theoretical Depth**: Explores finer combinatorial invariants inspired by the cohomology rings of moment-angle complexes.
 
-## 🧮 Mathematical Background
+## 📘 Theoretical Foundation (Thesis)
 
-The core philosophy of this algorithm is inspired by the relationship between a simplicial complex $K$ and its associated **Moment-Angle Complex** $\mathcal{Z}_K$. 
+This repository serves as the **computational implementation companion** to the author's academic thesis:
 
-According to **Hochster's Formula**, the cohomology of $\mathcal{Z}_K$ decomposes into the cohomology of full subcomplexes of $K$:
+> **Dimensionality reduction based on persistence entropy**
 
-$$H^*(\mathcal{Z}_K; \mathbb{k}) \cong \bigoplus_{J \subseteq [m]} \widetilde{H}^{*-|J|-1}(K_J; \mathbb{k})$$
+The framework bridges **Algebraic Topology** and **Feature Selection** algorithms. The theoretical and algorithmic core involves:
 
-Where $K_J$ is the full subcomplex of $K$ on the vertex set $J$. 
-In the context of TDA, we hypothesize that the "optimal" subset of variables corresponds to a subcomplex $K_J$ that maximizes topological signal-to-noise ratio. AJD attempts to algorithmically navigate this combinatorial lattice to find such optimal substructures.
+* **Simplicial Homology & Persistence:** Modeling high-dimensional data as **Simplicial Complexes** (e.g., via Rips filtration). The algorithm explicitly tracks the evolution of topological features—specifically **Connected Components ($H_0$)** and **Loops/Holes ($H_1$)**—to generate **Persistence Diagrams**.
+* **Topological Information Theory:** Utilizing **Topological Persistence Entropy (TPE)** to quantify the complexity and information content of the dataset's topological structure, serving as a robust measure alongside geometric stability.
+* **Backward Elimination Strategy:** Adapting the **Backward Regression** principle from classical statistics to the topological domain. 
+    * The algorithm performs an iterative process where, at each step, variables are evaluated based on the **Topological Distance** (Wasserstein, Bottleneck, or Entropy difference) between the reduced dataset's persistence diagram and the original reference diagram.
+    * This "Directed Hierarchy" approach identifies the optimal subset of variables that best preserves the intrinsic topological shape of the data.
+
+**Note:** For detailed mathematical definitions, stability proofs of the used metrics, and the complete theoretical derivation, please refer to the full thesis text (available upon request).
 
 ## 🛠️ Installation
 
@@ -42,3 +47,4 @@ This project relies on specific versions of scientific computing libraries to en
    ```bash
    git clone [https://github.com/yourusername/AJD-Topology.git](https://github.com/yourusername/AJD-Topology.git)
    cd AJD-Topology
+
