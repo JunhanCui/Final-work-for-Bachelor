@@ -41,10 +41,11 @@ The framework bridges **Algebraic Topology** and **Feature Selection** algorithm
 
 This project relies on specific versions of scientific computing libraries to ensure reproducibility.
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/JunhanCui/Final-work-for-Bachelor.git
-   cd Final-work-for-Bachelor
+### Setup
+```bash
+# 1. Clone this repository
+git clone https://github.com/JunhanCui/Final-work-for-Bachelor.git
+cd Extended-Persistence-Cubical
 
 # 2. Install dependencies
 
