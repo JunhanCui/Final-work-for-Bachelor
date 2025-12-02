@@ -45,9 +45,10 @@ This project relies on specific versions of scientific computing libraries to en
 ```bash
 # 1. Clone this repository
 git clone https://github.com/JunhanCui/Final-work-for-Bachelor.git
-cd Extended-Persistence-Cubical
+cd Final-work-for-Bachelor
 
 # 2. Install dependencies
 
 pip install -r requirements.txt
+
 
