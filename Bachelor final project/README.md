@@ -8,9 +8,7 @@
 
 **AJD (Análisis de Jerarquía Dirigido / Directed Hierarchy Analysis)** is a novel variable selection and dimensionality reduction algorithm based on **Topological Data Analysis (TDA)**. 
 
-Unlike traditional statistical methods (e.g., PCA) that focus on variance, AJD iteratively evaluates the topological significance of variables by analyzing the stability and structure of their associated **Persistence Diagrams**. This project provides a robust implementation for computing directed hierarchies using multiple topological metrics, including Wasserstein distance, Bottleneck distance, and Persistent Entropy.
-
-This research draws theoretical inspiration from **Toric Topology**, specifically the combinatorial structure of **Moment-Angle Complexes ($\mathcal{Z}_K$)**, aiming to bridge the gap between algebraic topology invariants and data feature selection.
+Unlike traditional statistical methods (e.g., PCA) that focus on variance, AJD iteratively evaluates the topological significance of variables by analyzing the stability and structure of their associated **Persistence Diagrams**. This project provides a robust implementation for computing directed hierarchies using multiple topological metrics, including Wasserstein distance, Bottleneck distance, and Persistence Entropy.
 
 ## ✨ Key Features
 
@@ -45,6 +43,7 @@ This project relies on specific versions of scientific computing libraries to en
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/AJD-Topology.git](https://github.com/yourusername/AJD-Topology.git)
+   git clone [https://github.com/JunhanCui/AJD-Topology.git](https://github.com/yourusername/AJD-Topology.git)
    cd AJD-Topology
+
 
