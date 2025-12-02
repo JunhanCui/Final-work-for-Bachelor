@@ -23,10 +23,10 @@ Unlike traditional statistical methods (e.g., PCA) that focus on variance, DHA i
 
 ## 📘 Theoretical Foundation (Thesis)
 
-This repository serves as the **computational implementation companion** to the author's academic thesis:
+**Title:** Dimensionality reduction based on persistence entropy
 
-> **Dimensionality reduction based on persistence entropy**
-
+**[📄 Read Full Thesis (PDF)](./Dimensionality reduction based on persistence entropy.pdf)**
+**[🔗 View on Google Scholar](https://diposit.ub.edu/items/f23f73ff-79ad-4da8-ad69-dd59a7bc627d)**
 The framework bridges **Algebraic Topology** and **Feature Selection** algorithms. The theoretical and algorithmic core involves:
 
 * **Simplicial Homology & Persistence:** Modeling high-dimensional data as **Simplicial Complexes** (e.g., via Rips filtration). The algorithm explicitly tracks the evolution of topological features—specifically **Connected Components ($H_0$)** and **Loops/Holes ($H_1$)**—to generate **Persistence Diagrams**.
@@ -45,6 +45,7 @@ This project relies on specific versions of scientific computing libraries to en
    ```bash
    git clone https://github.com/JunhanCui/Final-work-for-Bachelor.git
    cd Final-work-for-Bachelor
+
 
 
 
