@@ -43,7 +43,8 @@ This project relies on specific versions of scientific computing libraries to en
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/JunhanCui/AJD-Topology.git](https://github.com/yourusername/AJD-Topology.git)
+   git clone [[https://github.com/JunhanCui/AJD-Topology.git](https://github.com/JunhanCui/Final-work-for-Bachelor.git)]
    cd AJD-Topology
+
 
 
